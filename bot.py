@@ -3,7 +3,7 @@ import pyperclip
 import time
 from google import genai
 
-apikey  = "AIzaSyDcpdPFVQb8c830JBBDYPP1WeHExnGW3H8" 
+apikey  = "your_api_key" 
 
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
 client = genai.Client(api_key=apikey)
