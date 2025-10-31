@@ -1,0 +1,15 @@
+# Exclude virtual environment folder
+.venv/
+venv/
+
+# Exclude Python cache files
+__pycache__/
+*.pyc
+
+# Exclude OS or editor-specific files
+.DS_Store
+Thumbs.db
+google-ai.py 
+
+# Exclude environment or credential files
+.env
