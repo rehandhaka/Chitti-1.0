@@ -15,7 +15,7 @@ whatsapp_name = "myname"
 
 def is_last_message_from_user(chat_text: str, user : str) -> bool:
     """
-    Returns True if the last message in the chat is from RsD, else False.
+    Returns True if the last message in the chat is from you, else False.
     """
     # Split into lines and remove empty ones
     messages = chat_text.strip().split('/2025] ')[-1]
