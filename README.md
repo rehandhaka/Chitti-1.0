@@ -44,17 +44,17 @@ You can also upgrade to **Google Gemini Pro** or **OpenAI GPT models** for even 
 git clone https://github.com/your-username/whatsapp-ai-chatbot.git
 cd whatsapp-ai-chatbot
 ```
-### **2. Create and Activate a Virtual Environment
+### **2. Create and Activate a Virtual Environment**
 ```bash
 python -m venv .venv
 .venv\Scripts\activate      # On Windows
 source .venv/bin/activate   # On Mac/Linux
 ```
-### **3. Install Dependencies
+### **3. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
-### **4. Run the Chatbot
+### **4. Run the Chatbot**
 ```bash
 python main.py
 ```
